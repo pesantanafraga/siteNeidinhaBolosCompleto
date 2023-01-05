@@ -71,8 +71,11 @@
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
     <Content Include="pages\bolos.aspx" />
+    <Content Include="pages\checkout.aspx" />
     <Content Include="pages\contatos.aspx" />
+    <Content Include="pages\dadosPerfil.aspx" />
     <Content Include="pages\doces.aspx" />
+    <Content Include="pages\vendas.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +93,13 @@
     <Compile Include="pages\bolos.aspx.designer.cs">
       <DependentUpon>bolos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pages\checkout.aspx.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\checkout.aspx.designer.cs">
+      <DependentUpon>checkout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\contatos.aspx.cs">
       <DependentUpon>contatos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -97,12 +107,26 @@
     <Compile Include="pages\contatos.aspx.designer.cs">
       <DependentUpon>contatos.aspx</DependentUpon>
     </Compile>
+    <Compile Include="pages\dadosPerfil.aspx.cs">
+      <DependentUpon>dadosPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\dadosPerfil.aspx.designer.cs">
+      <DependentUpon>dadosPerfil.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\doces.aspx.cs">
       <DependentUpon>doces.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="pages\doces.aspx.designer.cs">
       <DependentUpon>doces.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\vendas.aspx.cs">
+      <DependentUpon>vendas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\vendas.aspx.designer.cs">
+      <DependentUpon>vendas.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
