@@ -71,10 +71,12 @@
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
     <Content Include="pages\bolos.aspx" />
+    <Content Include="pages\cadastro.aspx" />
     <Content Include="pages\checkout.aspx" />
     <Content Include="pages\contatos.aspx" />
     <Content Include="pages\dadosPerfil.aspx" />
     <Content Include="pages\doces.aspx" />
+    <Content Include="pages\login.aspx" />
     <Content Include="pages\vendas.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -92,6 +94,13 @@
     </Compile>
     <Compile Include="pages\bolos.aspx.designer.cs">
       <DependentUpon>bolos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\cadastro.aspx.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\cadastro.aspx.designer.cs">
+      <DependentUpon>cadastro.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\checkout.aspx.cs">
       <DependentUpon>checkout.aspx</DependentUpon>
@@ -120,6 +129,13 @@
     </Compile>
     <Compile Include="pages\doces.aspx.designer.cs">
       <DependentUpon>doces.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\vendas.aspx.cs">
       <DependentUpon>vendas.aspx</DependentUpon>
