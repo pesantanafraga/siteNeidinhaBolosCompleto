@@ -5,9 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Neidinha Bolos</title>
-    <link href="css/reset.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link href="~/css/reset.css" rel="stylesheet" />
+    <link href="~/css/style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
 </head>
 <body>
@@ -42,28 +43,40 @@
 
         <h1>NEIDINHA BOLOS</h1>
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/teste 1.png" class="d-block w-100" alt="imagem teste do carrossel" />
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/teste1.png" class="d-block w-100" alt="Testando slide 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Primeiro Slide teste</h5>
+                        <p>uma breve legenda ou reprensividade do produto ou promoção.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/teste2.png" class="d-block w-100" alt="Testando slide 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Segundo teste slide</h5>
+                        <p>uma breve legenda ou reprensividade do produto ou promoção.</p>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/teste 2.png" class="d-block w-100" alt="imagem teste do carrossel" />
-                </div>
-                <div class="carousel-item">
-                    <img src="images/teste 3.png" class="d-block w-100" alt="imagem teste do carrossel" />
+                    <img src="/images/teste3.png" class="d-block w-100" alt="Testando slide 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Slide três em teste</h5>
+                        <p>uma breve legenda ou reprensividade do produto ou promoção.</p>
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
             </button>
