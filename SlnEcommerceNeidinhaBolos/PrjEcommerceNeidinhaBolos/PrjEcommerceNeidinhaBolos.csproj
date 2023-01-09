@@ -70,6 +70,7 @@
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
+    <Content Include="js\carrossel.js" />
     <Content Include="pages\bolos.aspx" />
     <Content Include="pages\cadastro.aspx" />
     <Content Include="pages\checkout.aspx" />
@@ -157,7 +158,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
-    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
