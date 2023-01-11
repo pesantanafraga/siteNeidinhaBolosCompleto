@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Neidinha Bolos</title>
     <link href="~/css/reset.css" rel="stylesheet" />
     <link href="~/css/style.css" rel="stylesheet" />
@@ -51,21 +51,21 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="images/teste1.png" class="d-block w-100" alt="Testando slide 1">
+                    <img src="images/teste1.png" class="d-block w-100" alt="Testando slide 1"/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Primeiro Slide teste</h5>
                         <p>uma breve legenda ou reprensividade do produto ou promoção.</p>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/teste2.png" class="d-block w-100" alt="Testando slide 2">
+                    <img src="images/teste2.png" class="d-block w-100" alt="Testando slide 2"/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Segundo teste slide</h5>
                         <p>uma breve legenda ou reprensividade do produto ou promoção.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="/images/teste3.png" class="d-block w-100" alt="Testando slide 3">
+                    <img src="/images/teste3.png" class="d-block w-100" alt="Testando slide 3"/>
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Slide três em teste</h5>
                         <p>uma breve legenda ou reprensividade do produto ou promoção.</p>
@@ -100,5 +100,8 @@
             </footer>
          </div>
     </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
