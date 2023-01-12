@@ -24,130 +24,130 @@ namespace PrjEcommerceNeidinhaBolos.pages
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle nomeUser.
+        /// Controle txtNomeUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox nomeUser;
+        protected global::System.Web.UI.WebControls.TextBox txtNomeUser;
 
         /// <summary>
-        /// Controle cpfUser.
+        /// Controle txtCpfUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cpfUser;
+        protected global::System.Web.UI.WebControls.TextBox txtCpfUser;
 
         /// <summary>
-        /// Controle emailUser.
+        /// Controle txtEmailUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox emailUser;
+        protected global::System.Web.UI.WebControls.TextBox txtEmailUser;
 
         /// <summary>
-        /// Controle senhaUser.
+        /// Controle txtSenhaUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox senhaUser;
+        protected global::System.Web.UI.WebControls.TextBox txtSenhaUser;
 
         /// <summary>
-        /// Controle confirmaSenhaUser.
+        /// Controle txtConfirmaSenhaUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox confirmaSenhaUser;
+        protected global::System.Web.UI.WebControls.TextBox txtConfirmaSenhaUser;
 
         /// <summary>
-        /// Controle celularUser.
+        /// Controle txtCelularUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox celularUser;
+        protected global::System.Web.UI.WebControls.TextBox txtCelularUser;
 
         /// <summary>
-        /// Controle telefoneUser.
+        /// Controle txtTelefoneUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox telefoneUser;
+        protected global::System.Web.UI.WebControls.TextBox txtTelefoneUser;
 
         /// <summary>
-        /// Controle cepUser.
+        /// Controle txtCepUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cepUser;
+        protected global::System.Web.UI.WebControls.TextBox txtCepUser;
 
         /// <summary>
-        /// Controle logradouroUser.
+        /// Controle txtLogradouroUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox logradouroUser;
+        protected global::System.Web.UI.WebControls.TextBox txtLogradouroUser;
 
         /// <summary>
-        /// Controle numeroUser.
+        /// Controle txtNumeroUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox numeroUser;
+        protected global::System.Web.UI.WebControls.TextBox txtNumeroUser;
 
         /// <summary>
-        /// Controle complementoUser.
+        /// Controle txtComplementoUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox complementoUser;
+        protected global::System.Web.UI.WebControls.TextBox txtComplementoUser;
 
         /// <summary>
-        /// Controle bairroUser.
+        /// Controle txtBairroUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox bairroUser;
+        protected global::System.Web.UI.WebControls.TextBox txtBairroUser;
 
         /// <summary>
-        /// Controle cidadeUser.
+        /// Controle txtCidadeUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cidadeUser;
+        protected global::System.Web.UI.WebControls.TextBox txtCidadeUser;
 
         /// <summary>
-        /// Controle ufUser.
+        /// Controle txtUfUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ufUser;
+        protected global::System.Web.UI.WebControls.TextBox txtUfUser;
 
         /// <summary>
         /// Controle btnCadastrar.

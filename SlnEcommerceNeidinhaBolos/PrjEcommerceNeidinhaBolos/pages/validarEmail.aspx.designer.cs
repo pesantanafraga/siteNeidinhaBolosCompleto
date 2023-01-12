@@ -11,7 +11,7 @@ namespace PrjEcommerceNeidinhaBolos.pages
 {
 
 
-    public partial class login
+    public partial class validarEmail
     {
 
         /// <summary>
@@ -24,30 +24,12 @@ namespace PrjEcommerceNeidinhaBolos.pages
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle txtLogin.
+        /// Controle txtValidacaoEmailUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtLogin;
-
-        /// <summary>
-        /// Controle txtSenhaLogin.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSenhaLogin;
-
-        /// <summary>
-        /// Controle btnAcessar.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAcessar;
+        protected global::System.Web.UI.WebControls.TextBox txtValidacaoEmailUser;
     }
 }

@@ -91,6 +91,8 @@
     <Content Include="pages\dadosPerfil.aspx" />
     <Content Include="pages\doces.aspx" />
     <Content Include="pages\login.aspx" />
+    <Content Include="pages\obrigadoFormulario.html" />
+    <Content Include="pages\validarEmail.aspx" />
     <Content Include="pages\vendas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -156,6 +158,13 @@
     </Compile>
     <Compile Include="pages\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\validarEmail.aspx.cs">
+      <DependentUpon>validarEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\validarEmail.aspx.designer.cs">
+      <DependentUpon>validarEmail.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\vendas.aspx.cs">
       <DependentUpon>vendas.aspx</DependentUpon>
