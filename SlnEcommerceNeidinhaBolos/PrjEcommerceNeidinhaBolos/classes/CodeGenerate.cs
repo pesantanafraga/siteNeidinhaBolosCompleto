@@ -5,7 +5,7 @@ using System.Web;
 
 namespace PrjEcommerceNeidinhaBolos.classes
 {
-    public class enviarEmailValidacao
+    public class CodeGenerate
     {
     }
 }

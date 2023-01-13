@@ -103,8 +103,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="classes\enviarEmailValidacao.cs" />
-    <Compile Include="classes\geradorCodigoValidacao.cs" />
+    <Compile Include="classes\CodeGenerate.cs" />
+    <Compile Include="classes\EnviaEmail.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
