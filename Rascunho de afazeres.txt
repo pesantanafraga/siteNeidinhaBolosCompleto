@@ -1,0 +1,27 @@
+*PÁGINAS CRIADAS OK*
+
+-Default (arrumar cards)
+-Cadastro (terminar footer)
+-Login (terminar footer)
+-Contatos (terminar redes sociais)
+
+
+
+*COMEÇAR*
+
+-Checkout (fazer protótipo ainda)
+-Venda
+-Detalhes do perfil
+-Bolos
+-Doces
+
+*PÁGINAS COMPLEMENTARES*
+
+-obrigado formulário
+-validar e-mail
+
+
+*CLASSES*
+
+-GerarCodigoValidacao
+-EnviarEmailValidacao

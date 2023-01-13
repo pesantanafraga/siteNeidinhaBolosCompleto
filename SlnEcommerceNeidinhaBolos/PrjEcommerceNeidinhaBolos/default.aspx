@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>Neidinha Bolos</title>
     <link href="~/css/reset.css" rel="stylesheet" />
-    <link href="~/css/style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link href="~/css/style.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
@@ -83,14 +83,26 @@
         </div>
 
         <div class="box-produtos">
-            <div class="card" style="width: 18rem;">
-                <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
-                <div class="card-body">
-                    <h5 class="card-title">Nome Bolo</h5>
-                    <p class="card-text">uma breve descrição sobre o produto ou sua fabricação para mostrar no card.</p>
-                    <a href="#" class="btn btn-outline-primary">Comprar</a>
+                <h2>Mais Vendidos</h2>
+            <fieldset>
+                <div class="card" style="width: 18rem;">
+                    <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
+                    <div class="card-body">
+                        <h5 class="card-title">Nome Bolo</h5>
+                        <p class="card-text">uma breve descrição sobre o produto ou sua fabricação para mostrar no card.</p>
+                        <a href="#" class="btn btn-outline-primary">Comprar</a>
+                    </div>
                 </div>
-            </div>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
+                    <div class="card-body">
+                        <h5 class="card-title">Nome Bolo</h5>
+                        <p class="card-text">uma breve descrição sobre o produto ou sua fabricação para mostrar no card.</p>
+                        <a href="#" class="btn btn-outline-primary">Comprar</a>
+                    </div>
+                </div>
+            </fieldset>
         </div>
 
         <div class="rodape">
