@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,29 @@ namespace PrjEcommerceNeidinhaBolos.pages
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        protected void txtCepUser_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                //Criando o objeto DataSet
+                DataSet ds = new DataSet();
+                //Criando a string que receberá como valor o site que fará a busca e validação do cep
+                string buscaCEP = "http://cep.republicavirtual.com.br/web_cep.php?cep=@&formato=xml".Replace("@cep", txtCepUser.Text);
+                //Fazendo o objeto ds buscar as inforamções
+                ds.ReadXml(buscaCEP);
+                //Trazendo para o usuário os valores buscados e inserindo nas text box referentes
+                txtTipoLogradouroUser.Text = ds.Tables[0].Rows[0]["tipo_logradouro"].ToString();
+                txtLogradouroUser.Text = ds.Tables[0].Rows[0]["logradouro"].ToString();
+                txtBairroUser.Text = ds.Tables[0].Rows[0]["bairro"].ToString();
+                txtCidadeUser.Text = ds.Tables[0].Rows[0]["cidade"].ToString();
+                txtUfUser.Text = ds.Tables[0].Rows[0]["uf"].ToString();
+            }
+            catch (Exception)
+            {
+
+            }
         }
     }
 }
