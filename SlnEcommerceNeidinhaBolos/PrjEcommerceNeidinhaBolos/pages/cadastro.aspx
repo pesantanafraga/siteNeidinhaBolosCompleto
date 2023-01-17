@@ -33,7 +33,19 @@
                             <a class="imgMenu" href="pages/contatos.aspx">Contato</a>
                         </li>
                         <li class="listMenu-login">
-                            <a class="loginMenu" href="pages/login.aspx">Acessar</a>
+                            <a class="loginMenu" href="pages/login.aspx">
+                                <img src="images/enter.svg" alt="Ícone para entrar no sistema" />
+                            </a>
+                        </li>
+                        <li class="listMenu-carrinho">
+                            <a class="carrinhoMenu" href="pages/carrinho.aspx">
+                                <img src="images/cart.svg" alt="Ícone do carrinho de compras do usuário" />
+                            </a>
+                        </li>
+                        <li class="listMenu-sair">
+                            <a class="loginSair" href="../default.aspx">
+                                <img src="images/log-out.svg" alt="Ícone para sair do sistema" />
+                            </a>
                         </li>
                     </ul>
                     <input class="pesquisar" type="search" placeholder="Pesquisar" />
@@ -61,6 +73,10 @@
 
                 <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" />
             </div>
+
+        <div class="alert alert-dark" role="alert">
+            <asp:Label ID="lblAlerta" runat="server" Text=""></asp:Label>
+        </div>
     </form>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
