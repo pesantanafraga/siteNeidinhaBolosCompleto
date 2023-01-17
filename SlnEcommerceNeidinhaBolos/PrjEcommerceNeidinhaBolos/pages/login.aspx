@@ -15,7 +15,7 @@
     <form id="form1" runat="server">
         <div class="acesso">
             <header class="titulos">
-                <h1>Entre com seu usuário ou redes sociais</h1>
+                <h1>Realize seu login</h1>
             </header>
       
             <asp:TextBox ID="txtLogin" runat="server" placeholder="LOGIN"></asp:TextBox>
