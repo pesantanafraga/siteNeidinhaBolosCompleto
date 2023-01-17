@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *PÁGINAS*
 
 -default >página inicial com promoções
@@ -16,6 +17,8 @@
 ------------------------------------------------------------------------------------
 
 
+=======
+>>>>>>> ec0957781f710cf58d7dd72f9e48c5f33bc91953
 *PÁGINAS CRIADAS OK*
 
 -Default (arrumar cards)
@@ -37,8 +40,11 @@
 
 -obrigado formulário
 -validar e-mail
+<<<<<<< HEAD
 -selecionar/adicionar meio de pagamento
 
+=======
+>>>>>>> ec0957781f710cf58d7dd72f9e48c5f33bc91953
 
 
 *CLASSES*

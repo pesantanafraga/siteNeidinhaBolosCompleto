@@ -1,3 +1,14 @@
-﻿#pesquisar{
-    border-radius: 10px;
+﻿/*DEFAULT*/
+.box-produtos{
+    background-color:bisque;
+}
+fieldset{
+    border: 1px solid black;
+    display:flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+h2{
+    text-align: center;
 }
