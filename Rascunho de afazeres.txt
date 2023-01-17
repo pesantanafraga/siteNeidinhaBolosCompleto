@@ -1,0 +1,47 @@
+*PÁGINAS*
+
+-default >página inicial com promoções
+-bolos >navegação nos produtos(bolos)
+-doces >navegação nos produtos(doces)
+-contato >preencher formulário de contato e redes sociais
+-venda >trazer o produto, escolher quantidade e variação> adicionar complementos
+-carrinho >onde estarão salvos os produtos marcados com gostei
+-checkout >escolher/adicionar método de pagamento
+-finalização de venda >confirmar as informações e finalizar a venda >obrigado pela compra
+-acesso >tela de login na plataforma
+-cadastro >cadastrar usuários
+-validação de e-mail >digitar o cód para validar o e-mail no cadastro
+-edição do perfil >poder editar foto, nome, telefone, senha, endereço, etc...
+-sobre >sobre a empresa
+------------------------------------------------------------------------------------
+
+
+*PÁGINAS CRIADAS OK*
+
+-Default (arrumar cards)
+-Cadastro (terminar footer)
+-Login (terminar footer)
+-Contatos (terminar redes sociais)
+
+
+
+*COMEÇAR*
+
+-Checkout (fazer protótipo ainda)
+-Venda
+-Detalhes do perfil
+-Bolos
+-Doces
+
+*PÁGINAS COMPLEMENTARES*
+
+-obrigado formulário
+-validar e-mail
+-selecionar/adicionar meio de pagamento
+
+
+
+*CLASSES*
+
+-GerarCodigoValidacao
+-EnviarEmailValidacao

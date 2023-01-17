@@ -50,13 +50,14 @@
                 <asp:TextBox ID="txtConfirmaSenhaUser" runat="server" placeholder="CONFIRMAR SENHA" TextMode="Password"></asp:TextBox>
                 <asp:TextBox ID="txtCelularUser" runat="server" placeholder="CELULAR" TextMode="Phone"></asp:TextBox>
                 <asp:TextBox ID="txtTelefoneUser" runat="server" placeholder="TELEFONE" TextMode="Phone"></asp:TextBox>
-                <asp:TextBox ID="txtCepUser" runat="server" placeholder="CEP"></asp:TextBox>
-                <asp:TextBox ID="txtLogradouroUser" runat="server" placeholder="LOGRADOURO"></asp:TextBox>
+                <asp:TextBox ID="txtCepUser" runat="server" placeholder="CEP" OnTextChanged="txtCepUser_TextChanged"></asp:TextBox>
+                <asp:TextBox ID="txtTipoLogradouroUser" runat="server" placeholder="TIPO LOGRADOURO" ReadOnly="True"></asp:TextBox>
+                <asp:TextBox ID="txtLogradouroUser" runat="server" placeholder="LOGRADOURO" ReadOnly="True"></asp:TextBox>
                 <asp:TextBox ID="txtNumeroUser" runat="server" placeholder="NÚMERO"></asp:TextBox>
                 <asp:TextBox ID="txtComplementoUser" runat="server" placeholder="COMPLEMENTO"></asp:TextBox>
-                <asp:TextBox ID="txtBairroUser" runat="server" placeholder="BAIRRO"></asp:TextBox>
-                <asp:TextBox ID="txtCidadeUser" runat="server" placeholder="CIDADE"></asp:TextBox>
-                <asp:TextBox ID="txtUfUser" runat="server" placeholder="UF"></asp:TextBox>
+                <asp:TextBox ID="txtBairroUser" runat="server" placeholder="BAIRRO" ReadOnly="True"></asp:TextBox>
+                <asp:TextBox ID="txtCidadeUser" runat="server" placeholder="CIDADE" ReadOnly="True"></asp:TextBox>
+                <asp:TextBox ID="txtUfUser" runat="server" placeholder="UF" ReadOnly="True"></asp:TextBox>
 
                 <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" />
             </div>

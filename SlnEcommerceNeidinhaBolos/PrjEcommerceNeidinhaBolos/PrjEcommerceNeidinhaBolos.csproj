@@ -86,12 +86,16 @@
     <Content Include="default.aspx" />
     <Content Include="pages\bolos.aspx" />
     <Content Include="pages\cadastro.aspx" />
+    <Content Include="pages\carrinho.aspx" />
     <Content Include="pages\checkout.aspx" />
     <Content Include="pages\contatos.aspx" />
     <Content Include="pages\dadosPerfil.aspx" />
     <Content Include="pages\doces.aspx" />
+    <Content Include="pages\finalizarVenda.aspx" />
     <Content Include="pages\login.aspx" />
     <Content Include="pages\obrigadoFormulario.html" />
+    <Content Include="pages\obrigadoVenda.html" />
+    <Content Include="pages\sobreNos.html" />
     <Content Include="pages\validarEmail.aspx" />
     <Content Include="pages\vendas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -103,6 +107,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classes\geradorCod.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -123,6 +128,13 @@
     </Compile>
     <Compile Include="pages\cadastro.aspx.designer.cs">
       <DependentUpon>cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\carrinho.aspx.cs">
+      <DependentUpon>carrinho.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\carrinho.aspx.designer.cs">
+      <DependentUpon>carrinho.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\checkout.aspx.cs">
       <DependentUpon>checkout.aspx</DependentUpon>
@@ -151,6 +163,13 @@
     </Compile>
     <Compile Include="pages\doces.aspx.designer.cs">
       <DependentUpon>doces.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\finalizarVenda.aspx.cs">
+      <DependentUpon>finalizarVenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\finalizarVenda.aspx.designer.cs">
+      <DependentUpon>finalizarVenda.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>

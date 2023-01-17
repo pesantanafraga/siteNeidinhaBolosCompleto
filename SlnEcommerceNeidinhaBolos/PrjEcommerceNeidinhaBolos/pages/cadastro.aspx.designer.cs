@@ -96,6 +96,15 @@ namespace PrjEcommerceNeidinhaBolos.pages
         protected global::System.Web.UI.WebControls.TextBox txtCepUser;
 
         /// <summary>
+        /// Controle txtTipoLogradouroUser.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtTipoLogradouroUser;
+
+        /// <summary>
         /// Controle txtLogradouroUser.
         /// </summary>
         /// <remarks>

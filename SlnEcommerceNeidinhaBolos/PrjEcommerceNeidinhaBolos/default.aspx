@@ -32,7 +32,14 @@
                             <a class="imgMenu" href="pages/contatos.aspx">Contato</a>
                         </li>
                         <li class="listMenu-login">
-                            <a class="loginMenu" href="pages/login.aspx">Acessar</a>
+                            <a class="loginMenu" href="pages/login.aspx">
+                                <img src="images/enter.svg" alt="ícone para realizar login no site" />
+                            </a>
+                        </li>
+                        <li class="listMenu-carrinho">
+                            <a class="carrinhoMenu" href="pages/carrinho.aspx">
+                                <img src="images/cart.svg" alt="ícone do carrinho de produtos do usuário" />
+                            </a>
                         </li>
                     </ul>
                     <input class="pesquisar" type="search" placeholder="Pesquisar" />
@@ -82,13 +89,24 @@
             </button>
         </div>
 
-        <div class="box-produtos">
+        <div class="box-cards">
             <div class="card" style="width: 18rem;">
                 <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
                 <div class="card-body">
-                    <h5 class="card-title">Nome Bolo</h5>
+                    <h5 class="card-title">Bolos</h5>
                     <p class="card-text">uma breve descrição sobre o produto ou sua fabricação para mostrar no card.</p>
-                    <a href="#" class="btn btn-outline-primary">Comprar</a>
+                    <a href="pages/bolos.aspx" class="btn btn-outline-primary">Ver</a>
+                </div>
+            </div>
+        </div>
+
+         <div class="box-cards">
+            <div class="card" style="width: 18rem;">
+                <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
+                <div class="card-body">
+                    <h5 class="card-title">Doces</h5>
+                    <p class="card-text">uma breve descrição sobre o produto ou sua fabricação para mostrar no card.</p>
+                    <a href="pages/doces.aspx" class="btn btn-outline-primary">Ver</a>
                 </div>
             </div>
         </div>
