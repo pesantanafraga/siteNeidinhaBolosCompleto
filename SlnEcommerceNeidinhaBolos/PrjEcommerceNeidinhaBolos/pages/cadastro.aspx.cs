@@ -22,7 +22,11 @@ namespace PrjEcommerceNeidinhaBolos.pages
                 //Criando o objeto DataSet
                 DataSet ds = new DataSet();
                 //Criando a string que receberá como valor o site que fará a busca e validação do cep
+<<<<<<< HEAD
                 string xml = "http://cep.republicavirtual.com.br/web_cep.php?cep=@cep&formato=xml".Replace("@cep", txtCepUser.Text);
+=======
+                string xml = "http://cep.republicavirtual.com.br/web_cep.php?cep=@&formato=xml".Replace("@cep", txtCepUser.Text);
+>>>>>>> 5fed5ba75e71535cdd3d5fecd2e45d2b003b3b01
                 //Fazendo o objeto ds buscar as inforamções
                 ds.ReadXml(xml);
                 //Trazendo para o usuário os valores buscados e inserindo nas text box referentes
