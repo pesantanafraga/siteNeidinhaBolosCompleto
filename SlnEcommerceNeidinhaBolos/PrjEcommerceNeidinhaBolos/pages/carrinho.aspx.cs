@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace PrjEcommerceNeidinhaBolos.pages
 {
-    public partial class carrinho : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class carrinho : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
-    }
+		}
+	}
 }

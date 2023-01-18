@@ -95,7 +95,7 @@
     <Content Include="pages\login.aspx" />
     <Content Include="pages\obrigadoFormulario.html" />
     <Content Include="pages\obrigadoVenda.html" />
-    <Content Include="pages\sobreNos.html" />
+    <Content Include="pages\sobreNos.aspx" />
     <Content Include="pages\validarEmail.aspx" />
     <Content Include="pages\vendas.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -107,12 +107,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-    <Compile Include="classes\geradorCod.cs" />
-=======
     <Compile Include="classes\CodeGenerate.cs" />
-    <Compile Include="classes\EnviaEmail.cs" />
->>>>>>> ec0957781f710cf58d7dd72f9e48c5f33bc91953
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -182,6 +177,13 @@
     </Compile>
     <Compile Include="pages\login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\sobreNos.aspx.cs">
+      <DependentUpon>sobreNos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\sobreNos.aspx.designer.cs">
+      <DependentUpon>sobreNos.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\validarEmail.aspx.cs">
       <DependentUpon>validarEmail.aspx</DependentUpon>

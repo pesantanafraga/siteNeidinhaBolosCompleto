@@ -19,13 +19,13 @@ namespace PrjEcommerceNeidinhaBolos.pages
         {
             try
             {
-                //Criando o objeto dataset
+                //Criando o objeto DataSet
                 DataSet ds = new DataSet();
-                //criar a string que receberá o site que irá realizar a busca do cep
-                string buscaCEP = "http://cep.republicavirtual.com.br/web_cep.php?cep=@cep&formato=xml".Replace("@cep", txtCepUser.Text);
-                //fazendo o objeto ds ler o site
-                ds.ReadXml(buscaCEP);
-                //aplicando os valores buscados na text box referente
+                //Criando a string que receberá como valor o site que fará a busca e validação do cep
+                string xml = "http://cep.republicavirtual.com.br/web_cep.php?cep=@cep&formato=xml".Replace("@cep", txtCepUser.Text);
+                //Fazendo o objeto ds buscar as inforamções
+                ds.ReadXml(xml);
+                //Trazendo para o usuário os valores buscados e inserindo nas text box referentes
                 txtTipoLogradouroUser.Text = ds.Tables[0].Rows[0]["tipo_logradouro"].ToString();
                 txtLogradouroUser.Text = ds.Tables[0].Rows[0]["logradouro"].ToString();
                 txtBairroUser.Text = ds.Tables[0].Rows[0]["bairro"].ToString();
@@ -34,7 +34,7 @@ namespace PrjEcommerceNeidinhaBolos.pages
             }
             catch (Exception ex)
             {
-               
+                lblAlerta.Text = ex.Message;
             }
         }
     }

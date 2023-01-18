@@ -7,12 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-namespace PrjEcommerceNeidinhaBolos.pages
-{
-    public partial class finalizarVenda
-    {
-
+namespace PrjEcommerceNeidinhaBolos.pages {
+    
+    
+    public partial class finalizarVenda {
+        
         /// <summary>
         /// Controle de form1.
         /// </summary>
