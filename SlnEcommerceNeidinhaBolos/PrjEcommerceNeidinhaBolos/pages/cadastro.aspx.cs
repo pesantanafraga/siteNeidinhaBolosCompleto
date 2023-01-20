@@ -37,5 +37,27 @@ namespace PrjEcommerceNeidinhaBolos.pages
                 lblAlerta.Text = ex.Message;
             }
         }
+
+        protected void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            //Criando o Gerador de código para validar os e-mails na hora do cadastro
+            int codigo;//criando a variável que receberá o valor do código gerado
+            try
+            {
+                Random newCode = new Random();//criando o objeto Random que irá criar o número inteiro aleatório
+                for (int i = 0; i < 10; i++)
+                {
+                    codigo = newCode.Next(1000000);//Aplicando o valor do código gerado para a variável
+                }
+            }
+            catch (Exception cod)
+            {
+                lblAlerta.Text = cod.Message;
+            }
+
+            //Criando o cookie que irá guardar o valor do código gerado e validar o mesmo na tela de validação de e-mail
+
+            HttpCookie guardaCod = new HttpCookie();
+        }
     }
 }

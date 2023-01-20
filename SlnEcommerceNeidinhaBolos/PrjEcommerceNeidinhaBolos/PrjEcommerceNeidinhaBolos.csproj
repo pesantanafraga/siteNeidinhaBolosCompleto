@@ -107,7 +107,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="classes\CodeGenerate.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -233,6 +232,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="classes\" />
     <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>

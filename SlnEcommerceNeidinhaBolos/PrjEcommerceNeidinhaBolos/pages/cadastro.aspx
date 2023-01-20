@@ -34,17 +34,17 @@
                         </li>
                         <li class="listMenu-login">
                             <a class="loginMenu" href="pages/login.aspx">
-                                <img src="images/enter.svg" alt="Ícone para entrar no sistema" />
+                                <img src="~/images/enter.svg" alt="Ícone para entrar no sistema" />
                             </a>
                         </li>
                         <li class="listMenu-carrinho">
                             <a class="carrinhoMenu" href="pages/carrinho.aspx">
-                                <img src="images/cart.svg" alt="Ícone do carrinho de compras do usuário" />
+                                <img src="~/images/cart.svg" alt="Ícone do carrinho de compras do usuário" />
                             </a>
                         </li>
                         <li class="listMenu-sair">
                             <a class="loginSair" href="../default.aspx">
-                                <img src="images/log-out.svg" alt="Ícone para sair do sistema" />
+                                <img src="~/images/log-out.svg" alt="Ícone para sair do sistema" />
                             </a>
                         </li>
                     </ul>
@@ -66,12 +66,12 @@
                 <asp:TextBox ID="txtTipoLogradouroUser" runat="server" placeholder="TIPO LOGRADOURO" ReadOnly="True"></asp:TextBox>
                 <asp:TextBox ID="txtLogradouroUser" runat="server" placeholder="LOGRADOURO" ReadOnly="True"></asp:TextBox>
                 <asp:TextBox ID="txtNumeroUser" runat="server" placeholder="NÚMERO" ></asp:TextBox>
-                <asp:TextBox ID="txtComplementoUser" runat="server" placeholder="COMPLEMENTO"></asp:TextBox>
+                <asp:TextBox ID="txtComplementoUser" runat="server" placeholder="COMPLEMENTO (opcional)"></asp:TextBox>
                 <asp:TextBox ID="txtBairroUser" runat="server" placeholder="BAIRRO" ReadOnly="True"></asp:TextBox>
                 <asp:TextBox ID="txtCidadeUser" runat="server" placeholder="CIDADE" ReadOnly="True"></asp:TextBox>
                 <asp:TextBox ID="txtUfUser" runat="server" placeholder="UF" ReadOnly="True"></asp:TextBox>
 
-                <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" />
+                <asp:Button ID="btnCadastrar" runat="server" Text="Cadastrar" OnClick="btnCadastrar_Click" />
             </div>
 
         <div class="alert alert-dark" role="alert">
