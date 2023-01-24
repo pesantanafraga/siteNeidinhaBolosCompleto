@@ -106,6 +106,7 @@ namespace PrjEcommerceNeidinhaBolos.pages
             Response.Redirect("validarEmail.aspx");
 
             /*-------------------- Conexão com banco para executar as procedures --------------------*/
+
         }
     }
 }
