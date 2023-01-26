@@ -7,7 +7,6 @@
 -contato >preencher formulário de contato e redes sociais
 -venda >trazer o produto, escolher quantidade e variação> adicionar complementos
 -carrinho >onde estarão salvos os produtos marcados com gostei
--checkout >escolher/adicionar método de pagamento
 -finalização de venda >confirmar as informações e finalizar a venda >obrigado pela compra
 -acesso >tela de login na plataforma
 -cadastro >cadastrar usuários
