@@ -64,7 +64,7 @@ namespace PrjEcommerceNeidinhaBolos.pages
             /*
 
             HttpCookie cookieCodigo = new HttpCookie("codigo");//criando o cookie que irá receber o valor do código
-            cookieCodigo.Value = codigo.ToString();
+            cookieCodigo.Value = codigo;
             DateTime agora = new DateTime.Now;//Criando o objeto que irá guardar a hora atual da criação do cookie
             TimeSpan tempo = new TimeSpan(0, 10, 0);//Criando tempo de expiração para o cookie
             cookieCodigo.Expires = agora + tempo;//Definindo tempo de expiração para o cookie
@@ -75,6 +75,8 @@ namespace PrjEcommerceNeidinhaBolos.pages
 
 
             /*-------------------- Criando o objeto EnviaEmail --------------------*/
+
+            /*
 
             System.Net.Mail.SmtpClient client = new System.Net.Mail.SmtpClient();//criando o objeto
             client.Host = "smtp.gmail.com";//definindo o servidor smtp do e-mail que enviará os e-mails
@@ -100,6 +102,12 @@ namespace PrjEcommerceNeidinhaBolos.pages
             {
                 mail = null;//passando que ao final do procedimento o mail será tudo nulo novamente
             }
+
+            */
+
+            /*-------------------- Redirecionando para validar o e-mail --------------------*/
+
+            Response.Redirect("validarEmail.aspx");
 
             /*-------------------- Conexão com banco para executar as procedures --------------------*/
 

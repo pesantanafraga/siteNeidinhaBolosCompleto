@@ -84,10 +84,18 @@
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
     <Content Include="default.aspx" />
+    <Content Include="images\cart.svg" />
+    <Content Include="images\enter.svg" />
+    <Content Include="images\kitkat.jpg" />
+    <Content Include="images\log-out.svg" />
+    <Content Include="images\logotiponeidinha.png" />
+    <Content Include="images\person.svg" />
+    <Content Include="images\teste1.png" />
+    <Content Include="images\teste2.png" />
+    <Content Include="images\teste3.png" />
     <Content Include="pages\bolos.aspx" />
     <Content Include="pages\cadastro.aspx" />
     <Content Include="pages\carrinho.aspx" />
-    <Content Include="pages\checkout.aspx" />
     <Content Include="pages\contatos.aspx" />
     <Content Include="pages\dadosPerfil.aspx" />
     <Content Include="pages\doces.aspx" />
@@ -134,13 +142,6 @@
     </Compile>
     <Compile Include="pages\carrinho.aspx.designer.cs">
       <DependentUpon>carrinho.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\checkout.aspx.cs">
-      <DependentUpon>checkout.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\checkout.aspx.designer.cs">
-      <DependentUpon>checkout.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\contatos.aspx.cs">
       <DependentUpon>contatos.aspx</DependentUpon>
@@ -233,8 +234,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="classes\" />
-    <Folder Include="images\" />
-    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

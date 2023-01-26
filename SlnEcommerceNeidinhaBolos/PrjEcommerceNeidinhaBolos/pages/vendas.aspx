@@ -9,7 +9,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="img-produto">
+            <asp:Image ID="Image1" runat="server" />
+        </div>
+        <div class="info-produto">
+            <asp:Label ID="lblNomeProduto" runat="server" Text="Nome"></asp:Label>
+            <asp:Label ID="lblDescricaoProduto" runat="server" Text="Descrição"></asp:Label>
+            <asp:Button ID="btnFavoritar" runat="server" Text="salvar" />
+            <asp:Button ID="btnComprar" runat="server" Text="Comprar" OnClick="btnComprar_Click" />
         </div>
     </form>
 </body>

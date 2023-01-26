@@ -13,5 +13,10 @@ namespace PrjEcommerceNeidinhaBolos.pages
         {
 
         }
+
+        protected void lBtnDeletarConta_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

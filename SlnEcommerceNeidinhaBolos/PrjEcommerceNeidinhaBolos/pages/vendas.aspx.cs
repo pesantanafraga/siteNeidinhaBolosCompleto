@@ -13,5 +13,11 @@ namespace PrjEcommerceNeidinhaBolos.pages
         {
 
         }
+
+        protected void btnComprar_Click(object sender, EventArgs e)
+        {
+            //Encaminhando a venda para a tela de finalização
+            Response.Redirect("finalizarVenda.aspx");
+        }
     }
 }
