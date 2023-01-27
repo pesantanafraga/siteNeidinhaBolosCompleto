@@ -16,17 +16,16 @@
 <body>
     <form id="form1" runat="server">
         <div class="cabecalho">
-            <header>
                 <div class="menu" id="barraNav">
                     <a href="default.aspx" class="active">Início</a>
                     <a href="pages/bolos.aspx">Bolos</a>
                     <a href="pages/doces.aspx">Doces</a>
                     <a href="pages/contatos.aspx">Contatos</a>
+                    <a href="pages/login.aspx">Login</a>
                     <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
                         <i class="fa fa-bars"></i>
                     </a>
                 </div>
-            </header>
         </div>
 
         <h1 class="titulo">NEIDINHA BOLOS</h1>
@@ -80,7 +79,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Nome Bolo</h5>
                         <p class="card-text">uma breve descrição sobre o produto ou sua fabricação para mostrar no card.</p>
-                        <a href="#" class="btn btn-outline-primary">Ver Promoção</a>
+                        <a href="#" class="btn btn-primary">Ver Promoção</a>
                     </div>
                 </div>
 
@@ -89,7 +88,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Nome Bolo</h5>
                         <p class="card-text">uma breve descrição sobre o produto ou sua fabricação para mostrar no card.</p>
-                        <a href="#" class="btn btn-outline-primary">Ver Promoção</a>
+                        <a href="#" class="btn btn-primary">Ver Promoção</a>
                     </div>
                 </div>
 
@@ -98,7 +97,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Nome Bolo</h5>
                         <p class="card-text">uma breve descrição sobre o produto ou sua fabricação para mostrar no card.</p>
-                        <a href="#" class="btn btn-outline-primary">Ver Promoção</a>
+                        <a href="#" class="btn btn-primary">Ver Promoção</a>
                     </div>
                 </div>
 

@@ -1,0 +1,13 @@
+#de5a79 - vermelho goiaba
+#4b2f29 - narrom chocolate
+#786763 - marrom claro
+#d5c9be - background
+
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: var(--bs-btn-hover-bg);
+    border-color: var(--bs-btn-hover-border-color);
+}
+a:hover {
+    color: var(--bs-link-hover-color);

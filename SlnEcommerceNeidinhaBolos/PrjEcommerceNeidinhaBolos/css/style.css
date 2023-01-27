@@ -18,6 +18,7 @@ H1, H2 {
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
+    margin-top: 3%;
     color: #4b2f29;
 }
 hr {
@@ -36,32 +37,34 @@ a {
     font-size: 22px;
     font-weight: 600;
 }
-.cabecalho{
-display:flex;
-margin:auto;
-width: 75%;
+.cabecalho {
+    display:flex;
+    margin:auto;
+    width: 100%;
+    
 }
 .menu {
-    background-color: #333;
+    background-color: #de5a79;
     overflow: hidden;
+    width: 100%;
 }
 .menu a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
-.menu a:hover {
-    background-color: #ddd;
-    color: black;
-}
-.menu a.active {
-    background-color: #04AA6D;
-    color: white;
-}
+    .menu a:hover {
+        background-color: #de5a79;
+        color: black;
+    }
+    .menu a.active {
+        background-color: #4b2f29;
+        color: white;
+    }
 .menu .icon {
     display: none;
 }
@@ -79,14 +82,28 @@ width: 75%;
 }
 .card {
     width: 75%;
-    margin-top: 3.5%;
-    margin-bottom: 3.5%;
+    margin-top: 4.5%;
+    margin-bottom: 4.5%;
     margin-left: auto;
     margin-right: auto;
     background-color: #f6f6e8;
+    border-radius: 20px;
 }
-.rodape{
-    text-align:center;
+.card-img-top {
+    border-radius: 20px;
+}
+.btn-primary{
+    color: white;
+    background-color: #4b2f29;
+    border-color: #4b2f29;
+}
+.btn:hover {
+    color: white;
+    background-color: #786763;
+    border-color: #4b2f29;
+}
+.rodape {
+    text-align: center;
     margin-top: 4.5%;
 }
 #footer {
@@ -104,7 +121,7 @@ width: 75%;
     font-style: oblique;
     font-weight: 600;
 }
-/*media query para tratar responsividade do menu*/
+/*media querys*/
 
 @media screen and (max-width: 600px) {
     .menu a:not(:first-child) {
