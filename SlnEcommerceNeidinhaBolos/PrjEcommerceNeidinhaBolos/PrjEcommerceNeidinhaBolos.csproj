@@ -96,7 +96,6 @@
     <Content Include="pages\bolos.aspx" />
     <Content Include="pages\cadastro.aspx" />
     <Content Include="pages\carrinho.aspx" />
-    <Content Include="pages\checkout.aspx" />
     <Content Include="pages\contatos.aspx" />
     <Content Include="pages\dadosPerfil.aspx" />
     <Content Include="pages\doces.aspx" />
@@ -113,6 +112,7 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\menuHamburguer.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -143,13 +143,6 @@
     </Compile>
     <Compile Include="pages\carrinho.aspx.designer.cs">
       <DependentUpon>carrinho.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="pages\checkout.aspx.cs">
-      <DependentUpon>checkout.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="pages\checkout.aspx.designer.cs">
-      <DependentUpon>checkout.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\contatos.aspx.cs">
       <DependentUpon>contatos.aspx</DependentUpon>
@@ -242,7 +235,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="classes\" />
-    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

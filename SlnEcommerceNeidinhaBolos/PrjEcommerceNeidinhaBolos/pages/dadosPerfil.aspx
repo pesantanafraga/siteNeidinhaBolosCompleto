@@ -31,7 +31,10 @@
             <asp:TextBox ID="txtBairroUserEditar" runat="server"></asp:TextBox>
             <asp:TextBox ID="txtCidadeUserEditar" runat="server"></asp:TextBox>
             <asp:TextBox ID="txtUfUserEditar" runat="server"></asp:TextBox>
+            <br />
             <asp:Button ID="btnAtualizarCadastro" runat="server" Text="Atualizar" />
+            <asp:LinkButton ID="lBtnDeletarConta" runat="server">Quero excluir minha conta.</asp:LinkButton>
+            <asp:Label ID="lblAvisoUser" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>
