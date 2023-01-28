@@ -4,43 +4,32 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Neidinha Bolos - Contatos</title>
     <link href="~/css/reset.css" rel="stylesheet" />
-    <link href="~/css/style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="~/css/style.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-           <div class="cabecalho">
-            <header>
-                <nav class="navegacao">
-                    <ul class="menu">
-                        <li class="listMenu-itens">
-                            <a class="imgMenu" href="../default.aspx">
-                                <img class="logotipo" src="../images/logotiponeidinha.png" alt="Neidinha Bolos" />
-                            </a>
-                        </li>
-                        <li class="listMenu-itens">
-                            <a class="imgMenu" href="pages/bolos.apsx">Bolos</a>
-                        </li>
-                        <li class="listMenu-itens">
-                            <a class="imgMenu" href="pages/doces.aspx">Doces</a>
-                        </li>
-                        <li class="listMenu-itens">
-                            <a class="imgMenu" href="pages/contatos.aspx">Contato</a>
-                        </li>
-                        <li class="listMenu-login">
-                            <a class="loginMenu" href="pages/login.aspx">Acessar</a>
-                        </li>
-                    </ul>
-                    <input class="pesquisar" type="search" placeholder="Pesquisar" />
-                    <input class="btn btn-outline-primary" type="submit" value="Buscar" />
-                </nav>
-            </header>
+        <div class="cabecalho">
+            <div class="menu" id="barraNav">
+                <a href="../default.aspx">
+                    <img src="../images/logotipoSite.png" alt="logotipo para o site neidinha bolos" />
+                </a>
+                <a href="bolos.aspx">Bolos</a>
+                <a href="doces.aspx">Doces</a>
+                <a href="contatos.aspx" class="active">Contatos</a>
+                <a href="login.aspx">Login</a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </div>
+
         <div class="formulario-contato">
             <fieldset>
                 <asp:TextBox ID="txtNomeFormulario" runat="server" placeholder="NOME"></asp:TextBox>
@@ -52,7 +41,6 @@
             </fieldset>
         </div>
         <div class="socialmedia">
-
         </div>
     </form>
 </body>

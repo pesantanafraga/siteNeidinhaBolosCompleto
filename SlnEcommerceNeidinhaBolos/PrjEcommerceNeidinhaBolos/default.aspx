@@ -17,7 +17,9 @@
     <form id="form1" runat="server">
         <div class="cabecalho">
                 <div class="menu" id="barraNav">
-                    <a href="default.aspx" class="active">Início</a>
+                    <a href="default.aspx">
+                        <img src="images/logotipoSite.png" alt="logotipo para o site neidinha bolos" />
+                    </a>
                     <a href="pages/bolos.aspx">Bolos</a>
                     <a href="pages/doces.aspx">Doces</a>
                     <a href="pages/contatos.aspx">Contatos</a>
@@ -74,7 +76,7 @@
         <div class="box-produtos">
             <h2 class="subtitulo">Promoções em alta</h2>
             <fieldset>
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
                     <div class="card-body">
                         <h5 class="card-title">Nome Bolo</h5>
@@ -83,7 +85,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
                     <div class="card-body">
                         <h5 class="card-title">Nome Bolo</h5>
@@ -92,7 +94,7 @@
                     </div>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card">
                     <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
                     <div class="card-body">
                         <h5 class="card-title">Nome Bolo</h5>
