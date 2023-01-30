@@ -1,18 +1,18 @@
-﻿/*DEFAULT*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body {
     background: linear-gradient(#e5dbd0,#4b2f29);
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-fieldset {
+.bordas {
     border: 1px solid none;
-    display: block;
+    display: flex;
     width: 90%;
     margin: auto;
     border-radius: 15px;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 H1, H2 {
@@ -124,6 +124,39 @@ a {
     text-align: center;
     margin-top: 4.5%;
 }
+.formularios {
+    border: outset 1.5px black;
+    border-radius: 15px;
+    background-color: none;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formulario-cadastro{
+    margin-bottom: 2rem;
+}
+.txtAsp {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    width: 22rem;
+    margin: 0.85rem;
+}
+.botoesAsp{
+    width: 19rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #4b2f29;
+    color: white;
+    transition-duration: 0.5s;
+    margin: 0.80rem;
+}
+.botoesAsp:hover{
+    background-color: #de5a79;
+    color: #4b2f29;
+}
 
 #footer {
     color: #f6f6e8;
@@ -146,7 +179,7 @@ a {
         background-color: none;
         color: black;
     }
-
+  
 /*media querys*/
 
 @media screen and (max-width: 590px) {
@@ -165,29 +198,41 @@ a {
         position: relative;
     }
 
-    .menu.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
+        .menu.responsive a.icon {
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
 
-    .menu.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
+        .menu.responsive a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
 
     .card {
         width: 20rem;
     }
 
-    fieldset {
+    .bordas {
         width: 80%;
     }
-}
 
+    .formularios {
+        width: 80%;
+    }
+
+    .txtAsp {
+        width: 18rem;
+        margin: 0.85rem;
+    }
+
+    .botoesAsp {
+        width: 16rem;
+    }
+}
 @media screen and (min-width: 720px) {
-    fieldset {
+    .bordas {
         width: 75%;
     }
 
@@ -203,9 +248,6 @@ a {
         margin-top: 1%;
     }
 }
-
-}
-
 @media screen and (min-width: 900px) {
     .titulo {
         font-size: 38px;
@@ -225,14 +267,12 @@ a {
         font-size: medium;
     }
 
-    fieldset {
-        width: 85%;
-        display: flex;
-        flex-wrap: wrap;
+    .bordas {
+        width: 90%;
     }
 
     .card {
-        width: 19.5rem;
+        width: 23rem;
     }
 
     .carrossel {
@@ -242,10 +282,22 @@ a {
     .menu a {
         width: 19%;
     }
+    .formularios {
+        width: 70%;
+    }
+
+    .txtAsp {
+        width: 23rem;
+        margin: 0.80rem;
+    }
+
+    .botoesAsp {
+        width: 18rem;
+    }
 }
 
 @media screen and (min-width: 1280px) {
-    .fieldset {
+    .bordas {
         width: 90%;
     }
 
@@ -255,6 +307,18 @@ a {
 
     .menu a {
         width: 19%;
+    }
+    .formularios {
+        width: 70%;
+    }
+
+    .txtAsp {
+        width: 28rem;
+        margin: 0.88rem;
+    }
+
+    .botoesAsp {
+        width: 21rem;
     }
 
     footer {

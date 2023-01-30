@@ -75,7 +75,7 @@
 
         <div class="box-produtos">
             <h2 class="subtitulo">Promoções em alta</h2>
-            <fieldset>
+            <div class="bordas">
                 <div class="card">
                     <img src="images/kitkat.jpg" class="card-img-top" alt="Bolo de KitKat com nutella e M&M" />
                     <div class="card-body">
@@ -103,7 +103,7 @@
                     </div>
                 </div>
 
-            </fieldset>
+            </div>
         </div>
 
         <hr />

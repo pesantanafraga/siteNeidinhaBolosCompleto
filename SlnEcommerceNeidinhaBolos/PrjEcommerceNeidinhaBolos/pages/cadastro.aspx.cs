@@ -52,6 +52,7 @@ namespace PrjEcommerceNeidinhaBolos.pages
                 for (int i = 0; i < 10; i++)
                 {
                     codigo = newCode.Next(1000000).ToString();//Aplicando o valor do código gerado para a variável
+                    lblAlerta.Text = codigo;
                 }
             }
             catch (Exception cod)
@@ -107,7 +108,7 @@ namespace PrjEcommerceNeidinhaBolos.pages
 
             /*-------------------- Redirecionando para validar o e-mail --------------------*/
 
-            Response.Redirect("validarEmail.aspx");
+            //Response.Redirect("validarEmail.aspx");
 
             /*-------------------- Conexão com banco para executar as procedures --------------------*/
 
