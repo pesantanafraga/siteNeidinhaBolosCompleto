@@ -92,7 +92,7 @@
     <Content Include="pages\bolos.aspx" />
     <Content Include="pages\cadastro.aspx" />
     <Content Include="pages\carrinho.aspx" />
-    <Content Include="pages\contatos.aspx" />
+    <Content Include="pages\ajuda.aspx" />
     <Content Include="pages\dadosPerfil.aspx" />
     <Content Include="pages\doces.aspx" />
     <Content Include="pages\finalizarVenda.aspx" />
@@ -140,12 +140,12 @@
     <Compile Include="pages\carrinho.aspx.designer.cs">
       <DependentUpon>carrinho.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\contatos.aspx.cs">
-      <DependentUpon>contatos.aspx</DependentUpon>
+    <Compile Include="pages\ajuda.aspx.cs">
+      <DependentUpon>ajuda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pages\contatos.aspx.designer.cs">
-      <DependentUpon>contatos.aspx</DependentUpon>
+    <Compile Include="pages\ajuda.aspx.designer.cs">
+      <DependentUpon>ajuda.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\dadosPerfil.aspx.cs">
       <DependentUpon>dadosPerfil.aspx</DependentUpon>

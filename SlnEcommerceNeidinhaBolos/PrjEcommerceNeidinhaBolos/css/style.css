@@ -1,9 +1,9 @@
 ﻿/*DEFAULT*/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 body {
     background: linear-gradient(#e5dbd0,#4b2f29);
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 fieldset {
@@ -60,7 +60,7 @@ a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px 16px;
+    padding: 16px 12px;
     text-decoration: none;
     font-size: 19px;
 }
@@ -91,6 +91,7 @@ a {
 .box-produtos {
     width: 100%;
     margin-bottom: 3.5%;
+    justify-content: space-around;
 }
 
 .card {
@@ -123,6 +124,9 @@ a {
     text-align: center;
     margin-top: 4.5%;
 }
+.social-media {
+    width: 100px;
+}
 
 #footer {
     color: #f6f6e8;
@@ -140,6 +144,11 @@ a {
     font-style: oblique;
     font-weight: 600;
 }
+#github:hover {
+    background-color: none;
+    color: black;
+}
+
 /*media querys*/
 
 @media screen and (max-width: 590px) {
@@ -165,14 +174,8 @@ a {
      display: block;
      text-align: left;
  }
- .menu{
-    justify-content: space-evenly;
- }
- .menu a{
-     font-size: 26px;
- }
  .card{
-     width: 22rem;
+     width: 20rem;
  }
  fieldset{
      width: 80%;
@@ -184,6 +187,12 @@ a {
      .card{
          width: 23.5rem;
      }
+    .box-produtos{
+        margin-bottom: 4%;
+    }
+    footer{
+        margin-top: 1%;
+    }
  }
 }
 @media screen and (min-width: 900px) {
@@ -202,16 +211,34 @@ a {
  #github{
      font-size: medium;
  }
- .menu a{
-     
- }
  fieldset{
-     width: 90%;
+     width: 85%;
      display:flex;
      flex-wrap: wrap;
  }
  .card{
-     width: 19rem;
+     width: 19.5rem;
+ }
+ .carrossel{
+     width: 80%;
+ }
+ .menu a{
+     width: 19%;
+ }
+}
+@media screen and (min-width: 1280px){
+ .fieldset{
+     width: 90%;
+ }
+ .card{
+     width: 21rem;
+ }
+ .menu a{
+     width: 19%;
+ }
+ footer{
+     margin-top: -1%;
+     margin-bottom: 1%;
  }
 }
 

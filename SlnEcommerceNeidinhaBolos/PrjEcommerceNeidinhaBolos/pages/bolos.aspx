@@ -21,7 +21,7 @@
                     </a>
                     <a href="bolos.aspx"  class="active">Bolos</a>
                     <a href="doces.aspx">Doces</a>
-                    <a href="contatos.aspx">Contatos</a>
+                    <a href="ajuda.aspx">Ajuda</a>
                     <a href="login.aspx">Login</a>
                     <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
                         <i class="fa fa-bars"></i>

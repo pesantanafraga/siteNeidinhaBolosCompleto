@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="contatos.aspx.cs" Inherits="PrjEcommerceNeidinhaBolos.pages.contatos" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ajuda.aspx.cs" Inherits="PrjEcommerceNeidinhaBolos.pages.contatos" %>
 
 <!DOCTYPE html>
 
@@ -22,7 +22,7 @@
                 </a>
                 <a href="bolos.aspx">Bolos</a>
                 <a href="doces.aspx">Doces</a>
-                <a href="contatos.aspx" class="active">Contatos</a>
+                <a href="ajuda.aspx" class="active">Ajuda</a>
                 <a href="login.aspx">Login</a>
                 <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
                     <i class="fa fa-bars"></i>

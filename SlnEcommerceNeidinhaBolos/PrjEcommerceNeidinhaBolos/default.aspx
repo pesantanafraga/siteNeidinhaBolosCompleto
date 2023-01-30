@@ -22,12 +22,12 @@
                     </a>
                     <a href="pages/bolos.aspx">Bolos</a>
                     <a href="pages/doces.aspx">Doces</a>
-                    <a href="pages/contatos.aspx">Contatos</a>
+                    <a href="pages/ajuda.aspx">Ajuda</a>
                     <a href="pages/login.aspx">Login</a>
                     <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
                         <i class="fa fa-bars"></i>
                     </a>
-                </div>
+                 </div>
         </div>
 
         <h1 class="titulo">NEIDINHA BOLOS</h1>
@@ -118,5 +118,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
