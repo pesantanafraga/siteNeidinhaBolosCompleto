@@ -17,10 +17,10 @@
           <div class="cabecalho">
                 <div class="menu" id="barraNav">
                     <a href="../default.aspx">
-                        <img src="../images/logotipoSite.png" alt="logotipo para o site neidinha bolos" />
+                        <img src="../images/logotipoSite.png" alt="logotipo para o site neidinha bolos"/>
                     </a>
                     <a href="bolos.aspx">Bolos</a>
-                    <a href="doces.aspx" class="active">Doces</a>
+                    <a href="doces.aspx">Doces</a>
                     <a href="ajuda.aspx">Ajuda</a>
                     <a href="login.aspx">Login</a>
                     <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">

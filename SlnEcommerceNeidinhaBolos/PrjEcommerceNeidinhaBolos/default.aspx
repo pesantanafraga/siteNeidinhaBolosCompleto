@@ -18,7 +18,7 @@
         <div class="cabecalho">
                 <div class="menu" id="barraNav">
                     <a href="default.aspx">
-                        <img src="images/logotipoSite.png" alt="logotipo para o site neidinha bolos" />
+                        <img src="images/logotipoSite.png" alt="logotipo para o site neidinha bolos"/>
                     </a>
                     <a href="pages/bolos.aspx">Bolos</a>
                     <a href="pages/doces.aspx">Doces</a>
@@ -110,7 +110,7 @@
 
         <div class="rodape">
             <footer>
-                <h4 id="footer">©2023 - Neidinha Bolos - Todos os direitos reservados.</h4>
+                <h4 class="footer">©2023 - Neidinha Bolos - Todos os direitos reservados.</h4>
                 <a id="github" href="https://github.com/pesantanafraga" target="_blank">Desenvolvido por Pedro Santana.</a>
             </footer>
         </div>

@@ -16,13 +16,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-
-        <h1>Realize seu Cadastro</h1>
+        <h1>NEIDINHA BOLOS</h1>
+        <h2>Realize seu Cadastro</h2>
 
         <div class="formulairo-cadastro">
             <div class="formularios">
-                <asp:TextBox CssClass="txtAsp" ID="txtNomeUser" runat="server" placeholder="NOME E SOBRENOME" TabIndex="1"></asp:TextBox>
-                <asp:TextBox CssClass="txtAsp" ID="txtCpfUser" runat="server" placeholder="CPF (SOMENTE NUMEROS)" TabIndex="2" MaxLength="11"></asp:TextBox>
+                <asp:TextBox CssClass="txtAsp" ID="txtNomeUser" runat="server" placeholder="NOME COMPLETO" TabIndex="1"></asp:TextBox>
+                <asp:TextBox CssClass="txtAsp" ID="txtCpfUser" runat="server" placeholder="CPF (SOMENTE NÚMEROS)" TabIndex="2" MaxLength="11"></asp:TextBox>
                 <asp:TextBox CssClass="txtAsp" ID="txtEmailUser" runat="server" placeholder="E-MAIL" TextMode="Email" TabIndex="3"></asp:TextBox>
                 <asp:TextBox CssClass="txtAsp" ID="txtSenhaUser" runat="server" placeholder="SENHA" TextMode="Password" TabIndex="4"></asp:TextBox>
                 <asp:TextBox CssClass="txtAsp" ID="txtConfirmaSenhaUser" runat="server" placeholder="CONFIRMAR SENHA" TextMode="Password" TabIndex="5"></asp:TextBox>

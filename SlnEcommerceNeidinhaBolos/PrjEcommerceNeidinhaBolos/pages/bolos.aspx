@@ -17,9 +17,9 @@
          <div class="cabecalho">
                 <div class="menu" id="barraNav">
                     <a href="../default.aspx">
-                        <img src="../images/logotipoSite.png" alt="logotipo para o site neidinha bolos" />
+                        <img src="../images/logotipoSite.png" alt="logotipo para o site neidinha bolos"/>
                     </a>
-                    <a href="bolos.aspx"  class="active">Bolos</a>
+                    <a href="bolos.aspx">Bolos</a>
                     <a href="doces.aspx">Doces</a>
                     <a href="ajuda.aspx">Ajuda</a>
                     <a href="login.aspx">Login</a>

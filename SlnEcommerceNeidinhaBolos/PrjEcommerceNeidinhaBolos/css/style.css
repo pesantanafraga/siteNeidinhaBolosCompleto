@@ -70,11 +70,6 @@ a {
             color: #4b2f29;
         }
 
-        .menu a.active {
-            background-color: #4b2f29;
-            color: white;
-        }
-
     .menu .icon {
         display: none;
     }
@@ -157,8 +152,14 @@ a {
     background-color: #de5a79;
     color: #4b2f29;
 }
+.acesso{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
 
-#footer {
+.footer {
     color: #f6f6e8;
     font-size: medium;
     font-style: oblique;
