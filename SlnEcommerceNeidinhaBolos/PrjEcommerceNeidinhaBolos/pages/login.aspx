@@ -38,6 +38,8 @@
             <br />
 
             <asp:Button CssClass="botoesAsp" ID="btnAcessar" runat="server" Text="Entrar" />
+            <asp:Button CssClass="botoesAsp" ID="btnGoogle" runat="server" Text="Acessar via Google (beta)" />
+            <asp:Button CssClass="botoesAsp" ID="btnFacebook" runat="server" Text="Acessar via Facebook (beta)" />
             </div>
             <div class="rodape">
                 <h3 class="footer">Ainda não possui cadastro?</h3>

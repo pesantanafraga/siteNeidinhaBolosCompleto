@@ -66,7 +66,7 @@ a {
     }
 
         .menu a:hover {
-            background-color: #de5a79;
+            background-color: none;
             color: #4b2f29;
         }
 
@@ -100,7 +100,7 @@ a {
 }
 
 .card-img-top {
-    border-radius: 20px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .btn-primary {
@@ -110,8 +110,8 @@ a {
 }
 
 .btn:hover {
-    color: white;
-    background-color: #786763;
+    color: #4b2f29;
+    background-color: #de5a79;
     border-color: #4b2f29;
 }
 
@@ -164,6 +164,19 @@ a {
     font-size: medium;
     font-style: oblique;
     font-weight: bold;
+}
+.links {
+    color: #e5dbd0;
+    background-color: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 600;
+}
+.links:hover{
+    background-color: none;
+    color: #de5a79;
 }
 
 #github {
@@ -248,6 +261,9 @@ a {
     footer {
         margin-top: 1%;
     }
+    .menu a {
+        width: 20%;
+    }
 }
 @media screen and (min-width: 900px) {
     .titulo {
@@ -281,7 +297,7 @@ a {
     }
 
     .menu a {
-        width: 19%;
+        width: 20%;
     }
     .formularios {
         width: 70%;
