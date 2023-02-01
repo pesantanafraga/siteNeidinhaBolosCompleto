@@ -4,19 +4,37 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Neidinha Bolos</title>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="img-produto">
-            <asp:Image ID="Image1" runat="server" />
+        <div class="dadosUser-endereco">
+            <asp:Label ID="lbltituloEndereco" runat="server" Text="Endereço de Entrega"></asp:Label>
+            <asp:Label ID="lblNomeUser" runat="server" Text=""></asp:Label>
+            <asp:Label ID="lblCelularUser" runat="server" Text=""></asp:Label>
+            <asp:Label ID="lblEnderecoUser" runat="server" Text=""></asp:Label>
         </div>
-        <div class="info-produto">
-            <asp:Label ID="lblNomeProduto" runat="server" Text="Nome"></asp:Label>
-            <asp:Label ID="lblDescricaoProduto" runat="server" Text="Descrição"></asp:Label>
-            <asp:Button ID="btnFavoritar" runat="server" Text="salvar" />
-            <asp:Button ID="btnComprar" runat="server" Text="Comprar" OnClick="btnComprar_Click" />
+
+        <hr />
+
+        <div class="listagem-produtos">
+
+        </div>
+
+        <hr />
+
+        <div class="metodo-pagamento">
+            <asp:Label ID="lbltituloPagamento" runat="server" Text="Escolha o Meio de Pagamento"></asp:Label>
+            <asp:RadioButton ID="radPix" runat="server" Text=""/>
+            <asp:RadioButton ID="radCredito" runat="server" Text=""/>
+            <asp:RadioButton ID="radDebito" runat="server" Text=""/>
+            <asp:RadioButton ID="radBoleto" runat="server" Text=""/>
+        </div>
+
+        <div class="finalizar-pedido">
+            <asp:Label ID="lblValorTotal" runat="server" Text=""></asp:Label>
+            <asp:Button ID="btnPedido" runat="server" Text="Fazer Pedido" />
         </div>
     </form>
 </body>
