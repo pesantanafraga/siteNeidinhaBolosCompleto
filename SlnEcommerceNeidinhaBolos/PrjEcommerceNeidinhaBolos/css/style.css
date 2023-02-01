@@ -178,6 +178,26 @@ a {
     background-color: none;
     color: #de5a79;
 }
+.socialmedia{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.redessociais{
+    font-size: 4rem;
+    text-decoration: none;
+    color: white;
+    margin: 1.50rem;
+}
+#instagram:hover {
+    color: #833AB4;
+}
+#facebook:hover {
+    color: #3b5998;
+}
+#whatsapp:hover {
+    color: #25D366;
+}
 
 #github {
     color: white;

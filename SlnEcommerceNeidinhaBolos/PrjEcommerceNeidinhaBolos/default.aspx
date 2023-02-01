@@ -16,18 +16,18 @@
 <body>
     <form id="form1" runat="server">
         <div class="cabecalho">
-                <div class="menu" id="barraNav">
-                    <a href="default.aspx">
-                        <img src="images/logotipoSite.png" alt="logotipo para o site neidinha bolos"/>
-                    </a>
-                    <a href="pages/bolos.aspx">Bolos</a>
-                    <a href="pages/doces.aspx">Doces</a>
-                    <a href="pages/ajuda.aspx">Ajuda</a>
-                    <a href="pages/login.aspx">Login</a>
-                    <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
-                        <i class="fa fa-bars"></i>
-                    </a>
-                 </div>
+            <div class="menu" id="barraNav">
+                <a href="default.aspx">
+                    <img src="images/logotipoSite.png" alt="logotipo para o site neidinha bolos" />
+                </a>
+                <a href="pages/bolos.aspx">Bolos</a>
+                <a href="pages/doces.aspx">Doces</a>
+                <a href="pages/ajuda.aspx">Ajuda</a>
+                <a href="pages/login.aspx">Login</a>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </div>
 
         <h1 class="titulo">NEIDINHA BOLOS</h1>
