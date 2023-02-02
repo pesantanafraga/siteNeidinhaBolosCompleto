@@ -190,8 +190,51 @@ a {
     margin: 1.50rem;
 }
 .grid-container {
-    display: grid;
-    column-gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.dadosUser-endereco{
+    width:100%;
+}
+.listagem-produtos{
+    width: 100%;
+}
+.metodo-pagamento{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+.radio-buttons{
+    color: white;
+    transform: scale(1.5);
+    margin-top: 0.80rem;
+    margin-left: 2%;
+}
+.finalizar-pedido {
+    width: 100%;
+    display: flex;
+}
+.textos-finalizar{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+#lblTituloFinalizar{
+    width: 100%;
+}
+#lblValorTotalPedido{
+    width: 100%;
+}
+.botoesFinalizar{
+    width: 30%;
+    display: block;
+    margin-left: 42.2%;
+
+}
+#btnFinalizarPedido{
+    width: 100%;
 }
 #instagram:hover {
     color: #833AB4;

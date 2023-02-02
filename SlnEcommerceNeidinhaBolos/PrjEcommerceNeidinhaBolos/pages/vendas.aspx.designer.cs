@@ -60,6 +60,15 @@ namespace PrjEcommerceNeidinhaBolos.pages
         protected global::System.Web.UI.WebControls.Label lblEnderecoUser;
 
         /// <summary>
+        /// Controle lblTituloListagemProdutos.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTituloListagemProdutos;
+
+        /// <summary>
         /// Controle lbltituloPagamento.
         /// </summary>
         /// <remarks>
@@ -105,21 +114,30 @@ namespace PrjEcommerceNeidinhaBolos.pages
         protected global::System.Web.UI.WebControls.RadioButton radBoleto;
 
         /// <summary>
-        /// Controle lblValorTotal.
+        /// Controle lblTituloFinalizar.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblValorTotal;
+        protected global::System.Web.UI.WebControls.Label lblTituloFinalizar;
 
         /// <summary>
-        /// Controle btnPedido.
+        /// Controle lblValorTotalPedido.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPedido;
+        protected global::System.Web.UI.WebControls.Label lblValorTotalPedido;
+
+        /// <summary>
+        /// Controle btnFinalizarPedido.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnFinalizarPedido;
     }
 }
