@@ -17,9 +17,9 @@
         <main class="grid-container">
             <div class="dadosUser-endereco">
                 <asp:Label ID="lbltituloEndereco" runat="server" Text="Endereço de Entrega" CssClass="subtitulo"></asp:Label>
-                <asp:Label ID="lblNomeUser" runat="server" Text=""></asp:Label>
-                <asp:Label ID="lblCelularUser" runat="server" Text=""></asp:Label>
-                <asp:Label ID="lblEnderecoUser" runat="server" Text=""></asp:Label>
+                <asp:Label ID="lblNomeUser" runat="server" Text="Pedro" CssClass="dadosUser-venda"></asp:Label>
+                <asp:Label ID="lblCelularUser" runat="server" Text="(13)91234-5678" CssClass="dadosUser-venda"></asp:Label>
+                <asp:Label ID="lblEnderecoUser" runat="server" Text="Rua teste, 10, Bairro, Município, UF" CssClass="dadosUser-venda"></asp:Label>
             </div>
 
             <hr />
@@ -39,14 +39,12 @@
             </div>
 
             <div class="finalizar-pedido">
-                <div class="textosFinalizar">
+                
                 <asp:Label ID="lblTituloFinalizar" runat="server" Text="Valor total do pedido:" CssClass="subtitulo"></asp:Label>
-                <asp:Label ID="lblValorTotalPedido" runat="server" Text="Valor total"></asp:Label>
-                </div>
-                <hr />
-                <div class="botoesFinalizar">
-                    <asp:Button ID="btnFinalizarPedido" runat="server" Text="Fazer Pedido" />
-                </div>
+                <br />
+                <asp:Label ID="lblValorTotalPedido" runat="server" Text="" CssClass="subtitulo"></asp:Label>
+                <hr class="separador"/>
+                 <asp:Button ID="btnFinalizarPedido" runat="server" Text="Finalizar Pedido"  CssClass="botoesAsp"/>
             </div>
         </main>
     </form>

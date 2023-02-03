@@ -195,9 +195,13 @@ a {
 }
 .dadosUser-endereco{
     width:100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 .listagem-produtos{
     width: 100%;
+    margin: auto;
 }
 .metodo-pagamento{
     width: 100%;
@@ -213,29 +217,41 @@ a {
     margin-left: 2%;
 }
 .finalizar-pedido {
-    width: 100%;
     display: flex;
+    justify-content: space-around;
 }
-.textos-finalizar{
-    width: 70%;
-    display: block;
-    margin: auto;
+.separador{
+    color: #e5dbd0;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.dadosUser-venda{
+    color: dimgray;
+    font-size: medium;
+    margin-left: 1rem;
+    margin-bottom: 0.50rem;
 }
 #lblTituloFinalizar{
-    width: 100%;
+    width: 35%;
+    margin-left: 1.5%;
 }
 #lblValorTotalPedido{
-    width: 100%;
-}
-.botoesFinalizar{
     width: 30%;
-    display: block;
-    margin-left: 42.2%;
-
 }
 #btnFinalizarPedido{
-    width: 100%;
+    width: 35%;
+    margin-right: 1.5%;
+    border: 1px solid #4b2f29;
+    border-radius: 12px;
+    background-color: #e5dbd0;
+    color: #4b2f29;
 }
+#btnFinalizarPedido:hover{
+    background-color: #de5a79;
+    color: #e5dbd0;
+    border: 1px solid #4b2f29;
+}
+
 #instagram:hover {
     color: #833AB4;
 }
