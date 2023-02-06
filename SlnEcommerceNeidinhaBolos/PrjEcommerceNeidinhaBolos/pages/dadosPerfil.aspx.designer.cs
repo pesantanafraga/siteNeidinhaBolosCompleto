@@ -24,13 +24,13 @@ namespace PrjEcommerceNeidinhaBolos.pages
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Controle Image1.
+        /// Controle fotoPerfilUser.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image1;
+        protected global::System.Web.UI.WebControls.Image fotoPerfilUser;
 
         /// <summary>
         /// Controle FileUpload1.

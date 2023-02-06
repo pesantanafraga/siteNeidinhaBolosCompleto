@@ -231,6 +231,17 @@ a {
     margin-left: 1rem;
     margin-bottom: 0.50rem;
 }
+.edita-perfil{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+#fotoPerfilUser{
+    border: 1.5px solid white;
+    border-radius: 15px;
+}
 #lblTituloFinalizar{
     width: 35%;
     margin-left: 1.5%;
